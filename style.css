@@ -42,7 +42,7 @@ section a{
   margin: 30px 25px 30px 25px;
 }
 
-a:hover{
+section a:hover{
   background-color: #265614;
   color: rgb(225, 223, 223);
 }
@@ -55,7 +55,7 @@ main.container-fluid{
 footer p{
  margin: 0px auto 0px auto;
  text-align: center;
- position: static;
+ position: sticky;
  width: 100%;
  align-items: center;
  font-family: 'Roboto Mono', monospace;
