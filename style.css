@@ -55,7 +55,7 @@ main.container-fluid{
 footer p{
  margin: 0px auto 0px auto;
  text-align: center;
- position: sticky;
+ position: static;
  width: 100%;
  align-items: center;
  font-family: 'Roboto Mono', monospace;
@@ -64,4 +64,10 @@ footer p{
  color: #3d3c3c;
 }
    
+main .carousel-item:nth-child(3){
+  padding-bottom: 42px;
+}
 
+main .carousel-item:nth-child(4){
+  padding-bottom: 42px;
+}
